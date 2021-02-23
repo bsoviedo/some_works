@@ -1,0 +1,71 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: rgb(255, 255, 255) url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+}
+
+header{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    font-family:Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 3px;
+}
+/* Sección de introducción, tag section en html */
+#intro{
+    font-size:130% ;
+    text-align: justify;
+    width: 500px;
+    height: 300px;
+    margin-left:400px;
+    padding-top:50px;
+    
+}
+
+#Bienvenida{
+    color: rgb(126, 42, 42);
+    text-align: center;
+}
+
+nav{
+    text-align:end;
+    font-size: 14px;
+    padding-right: 30px;
+    word-spacing: 0.50em;
+    margin:0;
+
+} 
+
+/*Enlaces */
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+
+a:hover, a:focus, a:active { 
+        text-decoration: underline; 
+        color: #9685BA;
+     }
+
+footer{
+    color: black;
+    margin:80px;
+    padding-top:50 px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
