@@ -13,20 +13,23 @@ body {
 }
 
 header{
-    color: rgb(255,255,255);
-    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
     font-family:Helvetica, sans-serif;
     font-size: 18px;
-    padding: 3px;
+    padding: 10px;
+    text-align: justify;
 }
+
+
+
 /* Sección de introducción, tag section en html */
 #intro{
     font-size:130% ;
     text-align: justify;
     width: 500px;
     height: 300px;
-    margin-left:400px;
-    padding-top:50px;
+    margin: 0 auto;
     
 }
 
@@ -44,23 +47,48 @@ nav{
 
 } 
 
-/*Enlaces */
-a:link { 
+.enlace{
+    color:rgb(255, 255, 255);
+}
+
+/*Enlaces de la barra nav*/
+
+
+nav a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: rgb(251, 250, 255);
 	}
+
+nav a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(190, 190, 214);
+	}
+
+nav a:hover, a:focus, a:active { 
+        text-decoration: underline; 
+        color: #922d2d;
+     }
+
+/* los demás enlaces */      
+
+a:link { 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: rgb(50, 47, 63);
+ }
 
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color:  rgb(50, 47, 63);
 	}
 
 a:hover, a:focus, a:active { 
-        text-decoration: underline; 
-        color: #9685BA;
-     }
+    text-decoration: underline; 
+    color: #922d2d;
+ }
 
 footer{
     color: black;
