@@ -11,15 +11,18 @@ body {
 	margin: 0; 
 	padding: 0;
 }
-
 header{
-    color: rgb(255, 255, 255);
-    background-color: rgb(15, 15, 15);
+    color: rgb(126, 42, 42);
+    text-align: center;
+    background:rgba(235, 235, 225, 0.952);
+    margin:0px ;
+    padding: 3px;
     font-family:Helvetica, sans-serif;
     font-size: 18px;
     padding: 10px;
     text-align: justify;
 }
+
 
 
 
@@ -53,17 +56,16 @@ nav{
 
 /*Enlaces de la barra nav*/
 
-
 nav a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: rgb(251, 250, 255);
+	color: rgb(180, 168, 224);
 	}
 
 nav a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: rgb(190, 190, 214);
+	color: rgb(103, 103, 136);
 	}
 
 nav a:hover, a:focus, a:active { 

@@ -19,6 +19,33 @@ header{
     padding: 3px;
 
 }
+nav{
+    text-align:end;
+    font-size: 14px;
+    padding-right: 30px;
+    word-spacing: 0.50em;
+    margin:0;
+
+} 
+
+
+nav a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(180, 168, 224);
+	}
+
+nav a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(103, 103, 136);
+	}
+
+nav a:hover, a:focus, a:active { 
+        text-decoration: underline; 
+        color: #922d2d;
+     }
+
 
 h2{
 color: rgb(126, 42, 42);
