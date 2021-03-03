@@ -24,36 +24,70 @@ página web-->
 
 <h2> Algunos trabajos</h2>
 
-<h3>
-1- Dashboard ancho de andenes Bogotá 
-</h3>
 
-producto realizado a lo largo del año 2020, junto con un colega geógrafo, y que muestran el dinamismo de las distintas representaciones cartográficas,<br>
-mostrando la evolución de la cartografía a las representaciones moviles, en ella se puede ver el despliegue de una gran cantidad de datos, en un tablero <br>
+<section>
+
+    <h3>
+    1- Geovisor con datos obtenidos mediante web scraping en Twitter
+    </h3>
+
+<p> Para este trabajo se tomaron datos de la red social Twitter, especificamente del perfil de vidas silenciadas, quienes
+    son una organización que registra desapariciones en las que algún actor estatal esta -presuntamente- inmerso. Los datos
+    se obtuvieron mediante una técnica llamada web scrapping, la cual se trata de descargar datos por cantidades en varias 
+    páginas web. La red social Twitter permite de manera legal realizar este procedimiento, por lo que, mediante el uso 
+    python y la API de twitter se obtuvieron alrededor de 5.000 datos de tweets que contienen información de personas desaparecidas, 
+    todas publicadas por el portal vidas silenciadas. <br>
+    <br>
+    Posteriormente, estos datos son analizados y depurados mediante el uso de la libreria pandas de Python, y trabajados
+    espacialmente mediante el uso de la libreria geopandas. Para este caso, se uso un condicional que "lee" el tweet, extrae 
+    el lugar basandose en la coincidencia de nombre con un archivo shapefile de ESRI. De esta manera se asignan coordenadas a cada
+    tweet basandose en su contenido (strings) y así posteriormente generar un archivo shapefile. <br>
+    <br>
+    Por último, este shapefile final es convertido a un formato GeoJson, el cual permite la carga de datos de una manera más 
+    eficiente en el despliegue web de datos geográficos. Haciendo uso de HTML, CSS y un poco de JavaScript, se genera un 
+    geovisor que despliega los más de 2500 registros finales. <br>
+    Este visor se encuentra disponible en este <a href='https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html' 
+    alt='enlace a geovisor'> enlace</a>, y también se puede obtener una vista previa en esta pagina. 
+</p>
+    
+
+<img src='../First/Imagenes/Geovisor v1.PNG' width=700
+alt='Vista previa del dashboard ancho andenes en Bogotá'/>
+
+ <!--  <iframe src='https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html' width= 1300px
+    height= 700px
+    title='Dashboard diseñado en Arcgis Dashboards'> </iframe>   --> 
+</section>
+
+<h3>
+2- Dashboard ancho de andenes Bogotá 
+</h3>
+<p> 
+producto realizado a lo largo del año 2020, junto con un colega geógrafo, y que muestran el dinamismo de las distintas representaciones cartográficas,
+mostrando la evolución de la cartografía a las representaciones moviles, en ella se puede ver el despliegue de una gran cantidad de datos, en un tablero 
 de control desarrollado con la suite de Esri. Adicionalmente se incluye una imagen como preview en los archivos.  <br>
 <br>
 Este tablero se puede consultar en el siguiente <a href=http://arcg.is/q410b target='blank'> <em>enlace</em> </a>
 <br>
 Adicionalmente, acá puedes observar una vista previa: <br>
-<img src=https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/PREVIEW.PNG width=500
+</p>
+<!-- <iframe src='https://unalsig.maps.arcgis.com/apps/opsdashboard/index.html#/e8262228acbb4511ad759b52de3fcc01' width= 1300px
+height= 700px
+title='Dashboard diseñado en Arcgis Dashboards'> </iframe> -->
+
+
+<img src=https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/PREVIEW.PNG width=700
 alt='Vista previa del dashboard ancho andenes en Bogotá'/>
 
 </section>
 
-<section>
-    
-    <h3>
-    2- Geovisor con datos obtenidos mediante web scraping en Twitter
-    </h3>
-    
-   
-</section>
+
 
 
 <footer> 
     <p> Gracias por visitar, puedes contactarme a mi <a href= mailto:bsoviedoy@gmail.com> correo</a></p>
     <p> y también puedes encontrarme en Linkedin</p> 
-    <a href='https://www.linkedin.com/in/brayan-oviedo-yate-478072136/'> <img src='https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png' width= '40' 
+    <a href='https://www.linkedin.com/in/brayan-oviedo-yate-478072136/' target= blank> <img src='https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png' width= '40' 
         alt='Enlace de perfil de linkedin'/> </a> 
 </footer>
 </body>

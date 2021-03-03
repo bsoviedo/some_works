@@ -47,11 +47,21 @@ nav{
     padding-right: 30px;
     word-spacing: 0.50em;
     margin:0;
-
 } 
 
+
+
+
 .enlace{
+    display:inline-block;
+    border-top: 3px solid rgb(155, 55, 55);
     color:rgb(255, 255, 255);
+}
+
+.enlace:hover{
+    background-color:rgba(149, 112, 255, 0.6);
+    border-radius: 5px;
+
 }
 
 /*Enlaces de la barra nav*/
@@ -71,6 +81,7 @@ nav a:visited {
 nav a:hover, a:focus, a:active { 
         text-decoration: underline; 
         color: #922d2d;
+        
      }
 
 /* los demás enlaces */      

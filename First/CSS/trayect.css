@@ -19,6 +19,19 @@ header{
     padding: 3px;
 
 }
+
+.enlace{
+    display:inline-block;
+    border-top: 3px solid rgb(155, 55, 55);
+    color:rgb(255, 255, 255);
+}
+
+.enlace:hover{
+    background-color:rgba(149, 112, 255, 0.6);
+    border-radius: 5px;
+
+}
+
 nav{
     text-align:end;
     font-size: 14px;
@@ -63,6 +76,7 @@ color: rgb(126, 42, 42);
 div{
     padding: 5%;
 }
+
 
 
 footer{
