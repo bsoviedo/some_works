@@ -22,7 +22,11 @@ header{
     text-align: justify;
 }
 
+#nombre{
+    font-weight: bold;
+    font-size: 16px;
 
+}
 
 
 /* Sección de introducción, tag section en html */
