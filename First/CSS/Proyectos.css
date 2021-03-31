@@ -99,7 +99,7 @@ footer{
 @media all and (min-width: 1200px){
     nav{
         text-align:end;
-        font-size: 14px;
+        font-size: 1.1rem;
         padding-right: 30px;
         word-spacing: 0.50em;
         margin:0;
