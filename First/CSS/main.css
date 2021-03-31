@@ -33,8 +33,7 @@ header{
 #intro{
     font-size:130% ;
     text-align: justify;
-    width: 500px;
-    height: 300px;
+    width: 80%;
     margin: 0 auto;
     
 }
@@ -45,7 +44,7 @@ header{
 }
 
 nav{
-    text-align:end;
+    text-align:center;
     font-size: 14px;
     padding-right: 30px;
     word-spacing: 0.50em;
@@ -113,3 +112,25 @@ footer{
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
+
+
+@media all and (min-width: 900px){  
+
+    #intro{
+        font-size:130% ;
+        text-align: justify;
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+
+    nav{
+        text-align:end;
+        font-size: 14px;
+        padding-right: 30px;
+        word-spacing: 0.50em;
+        margin:0;
+    
+    } 
+
+} 
