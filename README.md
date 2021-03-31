@@ -4,7 +4,7 @@ Enlace completo a la página  https://bsoviedoy.github.io/some_works/First/index
 
 Tarea pendiente siguiente versión:
 
-
+-Actualizar los botones de la barra de navegación en la vista entre 500 y 1200px
 
 
 
