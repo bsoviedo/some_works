@@ -113,6 +113,26 @@ footer{
     text-align: center;
 }
 
+@media all and (min-width: 500px){ 
+    nav{
+        text-align:center;
+        font-size: 14px;
+        padding-right: 30px;
+        word-spacing: 0.50em;
+        margin:0;
+    } 
+     
+    #intro{
+        font-size:130% ;
+        text-align: justify;
+        width:80%;
+        margin: 0 auto;
+        
+    }
+
+
+}
+
 
 @media all and (min-width: 900px){  
 

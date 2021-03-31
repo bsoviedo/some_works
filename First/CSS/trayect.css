@@ -104,6 +104,19 @@ footer{
         
         }
 
+    nav{
+            text-align:center;
+            font-size: 14px;
+            padding-right: 30px;
+            word-spacing: 0.50em;
+            margin:0;
+        
+        } 
+
+    .container{
+        display: block;
+    }
+
 }
 
 
