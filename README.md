@@ -5,3 +5,7 @@ Enlace completo a la página  https://bsoviedoy.github.io/some_works/First/index
 Tarea pendiente siguiente versión:
 
 -Optimizar el diseño responsive de tamaños medianos con el media query de min 500px
+
+
+
+-Actualizar los proyectos realizados.
