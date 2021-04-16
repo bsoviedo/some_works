@@ -7,3 +7,6 @@ Tarea pendiente siguiente versión:
 -Actualizar los botones de la barra de navegación en la vista entre 500 y 1200px
 
 
+-Actualizar enlace página web 
+
+
