@@ -1,0 +1,156 @@
+html{
+    margin: 0;
+    padding: 10px;
+}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: rgb(255, 255, 255) url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+}
+header{
+    color: rgb(126, 42, 42);
+    text-align: center;
+    background:rgba(235, 235, 225, 0.952);
+    margin:0px ;
+    padding: 3px;
+    font-family:Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+/* Sección de introducción, tag section en html */
+#intro{
+    font-size:130% ;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#Bienvenida{
+    color: rgb(126, 42, 42);
+    text-align: center;
+}
+
+nav{
+    text-align:center;
+    font-size: 14px;
+    padding-right: 30px;
+    word-spacing: 0.50em;
+    margin:0;
+} 
+
+
+
+
+.enlace{
+    display:inline-block;
+    border-top: 3px solid rgb(155, 55, 55);
+    color:rgb(255, 255, 255);
+}
+
+.enlace:hover{
+    background-color:rgba(149, 112, 255, 0.6);
+    border-radius: 5px;
+
+}
+
+/*Enlaces de la barra nav*/
+
+nav a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(180, 168, 224);
+	}
+
+nav a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(103, 103, 136);
+	}
+
+nav a:hover, a:focus, a:active { 
+        text-decoration: underline; 
+        color: #922d2d;
+        
+     }
+
+/* los demás enlaces */      
+
+a:link { 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: rgb(50, 47, 63);
+ }
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:  rgb(50, 47, 63);
+	}
+
+a:hover, a:focus, a:active { 
+    text-decoration: underline; 
+    color: #922d2d;
+ }
+
+footer{
+    color: black;
+    margin:80px;
+    padding-top:50 px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media all and (min-width: 500px){ 
+    nav{
+        text-align:center;
+        font-size: 1.1rem;
+        padding-right: 30px;
+        word-spacing: 0.50em;
+        margin:0;
+    } 
+     
+    #intro{
+        font-size:130% ;
+        text-align: justify;
+        width:80%;
+        margin: 0 auto;
+        
+    }
+
+
+}
+
+
+@media all and (min-width: 1200px){  
+
+    #intro{
+        font-size:130% ;
+        text-align: justify;
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+
+    nav{
+        text-align:end;
+        font-size: 1.1rem;
+        padding-right: 30px;
+        word-spacing: 0.50em;
+        margin:0;
+    
+    } 
+
+} 
