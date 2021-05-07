@@ -5,32 +5,111 @@
     <meta charset="UTF-8">
     <title> Proyectos </title>
     <!-- Esta etiqueta link permite llamar los archivos css para el estilo-->
-    <link rel='stylesheet' href='CSS/Proyectos.css'>
+    <link rel='stylesheet' href='CSS/main.css'>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
 
     <!-- Esta etiqueta link permite poner un icono en la parte del título de la 
 página web-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel='icon' type='image/png'
         href=' https://www.flaticon.es/svg/vstatic/svg/921/921490.svg?token=exp=1614009220~hmac=7d4c04dd356ad9e57bcaf7ee5d7a1486'>
 </head>
 
 <body>
     <header>
-        <h1> Algunos trabajos </h1>
-        <nav>
-            <a href='https://bsoviedo.github.io/some_works/' class='enlace'>Bienvenido/a </a>
-            <a href='Proyectos.html' class='enlace'>Proyectos </a>
-            <a href='trayec.html' class='enlace'>Trayectoría</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Algunos trabajos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"
+                                alt='Enlace a página de inicio'>Bienvenido/a</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Proyectos.html" alt='Enlace a proyectos'>Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trayec.html" alt='Enlace a trayectoria'>Trayectoría</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
 
     <section id='trabajos'>
-
-        <h2> Algunos trabajos</h2>
         <section>
 
             <h3>
-                1- Geovisor tracker vacunación contra COVID19 en el mundo.
+                1- Geovisor victimas relacionadas con el Esmad en Colombia
+            </h3>
+
+            <p>
+                Este visor representa espacialmente información obtenida de la base de datos de vidas silenciadas. En
+                el, se detallan personas
+                que han muerto en hechos en los cuales el Escuadrón móvil Antidisturbios (ESMAD) de Colombia se ha visto
+                involucrado (o incluso ha sido
+                condenado directamente, como en el caso de <a
+                    href='https://www.eltiempo.com/justicia/delitos/condenan-a-policia-del-esmad-por-homicidio-del-joven-nicolas-neira-562575'>
+                    Nicolas Neira</a>).
+                <br>
+                <br>
+            <ul class='list-group  col-sm-12 col-md-6' id='tecno'>Técnologías usadas:
+                <li class="list-group-item">React JS &emsp; &emsp; <i class="fab fa-react fa-2x"
+                        style="color:rgb(62, 145, 201)"></i>
+                </li>
+                <li class="list-group-item">Css &emsp; &emsp;<i class="fab fa-css3-alt fa-2x"
+                        style="color:rgb(23, 99, 197)"></i>
+                </li>
+                <li class="list-group-item">JavaScript &emsp; &emsp;<i class="fab fa-js-square fa-2x"
+                        style="color:rgb(213, 226, 33)"></i>
+                </li>
+                <li class="list-group-item">Leaflet <img src='./Imagenes/leaflet.png' alt="leaflet logo" id='logo'>
+                </li>
+            </ul>
+            <br>
+            <br>
+            Este visor se encuentra disponible en este <a href='https://bsoviedo.github.io/e-smad/'
+                alt='enlace a geovisor' target='blank'> enlace</a>, y también se puede obtener una vista previa en esta
+            pagina. <br>
+            </p>
+
+
+            <img class='muestra' src='./Imagenes/Esmad.PNG' alt='Vista previa del geovisor vacunación' />
+            <div class="card text-center">
+                <div class="card-body">
+                    <div class="  col-sm-12 col-md-1" id='proyectos'>
+                        <a href="https://bsoviedo.github.io/e-smad/" class="btn btn-secondary" alt="Enlace al visor"
+                            target='blank'>Ir al visor</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--  <iframe src='https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html' width= 1300px
+            height= 700px
+            title='Dashboard diseñado en Arcgis Dashboards'> </iframe>   -->
+        </section>
+
+
+
+        <section>
+
+            <h3>
+                2- Geovisor tracker vacunación contra COVID19 en el mundo.
             </h3>
 
             <p>
@@ -42,14 +121,37 @@ página web-->
                 seguimiento a la lucha contra el COVID19
                 <br>
                 <br>
-                Este visor se encuentra disponible en este <a
-                    href='https://bsoviedo.github.io/Vacuna_covid_19_mundo/geovisor/index.html' alt='enlace a geovisor'
-                    target='blank'> enlace</a>, y también se puede obtener una vista previa en esta pagina. <br>
+            <ul class='list-group  col-sm-12 col-md-6' id='tecno'>Técnologías usadas:
+                <li class="list-group-item">Html5 &emsp; &emsp; <i class="fab fa-html5 fa-2x"
+                        style="color:rgb(213, 226, 33)"></i>
+                </li>
+                <li class="list-group-item">Css &emsp; &emsp;<i class="fab fa-css3-alt fa-2x"
+                        style="color:rgb(23, 99, 197)"></i>
+                </li>
+                <li class="list-group-item">JavaScript &emsp; &emsp;<i class="fab fa-js-square fa-2x"
+                        style="color:rgb(213, 226, 33)"></i>
+                </li>
+                <li class="list-group-item">Leaflet <img src='./Imagenes/leaflet.png' alt="leaflet logo" id='logo'>
+                </li>
+            </ul>
+            <br>
+            <br>
+            Este visor se encuentra disponible en este <a
+                href='https://bsoviedo.github.io/Vacuna_covid_19_mundo/geovisor/index.html' alt='enlace a geovisor'
+                target='blank'> enlace</a>, y también se puede obtener una vista previa en esta pagina. <br>
             </p>
 
 
-            <img class='muestra' src='https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/COVID19.png' width=700
+            <img class='muestra' src='https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/COVID19.png'
                 alt='Vista previa del geovisor vacunación' />
+            <div class="card text-center">
+                <div class="card-body">
+                    <div class="  col-sm-12 col-md-1" id='proyectos'>
+                        <a href="https://bsoviedo.github.io/Vacuna_covid_19_mundo/geovisor/index.html"
+                            class="btn btn-secondary" alt="Enlace al visor" target='blank'>Ir al visor</a>
+                    </div>
+                </div>
+            </div>
 
             <!--  <iframe src='https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html' width= 1300px
     height= 700px
@@ -60,7 +162,7 @@ página web-->
         <section>
 
             <h3>
-                2- Geovisor con datos obtenidos mediante web scraping en Twitter
+                3- Geovisor con datos obtenidos mediante web scraping en Twitter
             </h3>
 
             <p> Para este trabajo se tomaron datos de la red social Twitter, especificamente del perfil de vidas
@@ -89,14 +191,41 @@ página web-->
                 se genera un
                 geovisor que despliega los más de 2500 registros finales. <br>
                 <br>
-                Este visor se encuentra disponible en este <a
-                    href='https://bsoviedo.github.io/Geovisor_1_VS/GEOVISOR/Index.html' alt='enlace a geovisor'
-                    target='blank'> enlace</a>, y también se puede obtener una vista previa en esta pagina. <br>
+                <br>
+            <ul class='list-group  col-sm-12 col-md-6' id='tecno'>Técnologías usadas:
+                <li class="list-group-item">Python &emsp; &emsp; <i class="fab fa-python fa-2x"
+                        style="color:rgb(96, 99, 55)"></i>
+                </li>
+                <li class="list-group-item">Html5 &emsp; &emsp; <i class="fab fa-html5 fa-2x"
+                        style="color:rgb(213, 226, 33)"></i>
+                </li>
+                <li class="list-group-item">Css &emsp; &emsp;<i class="fab fa-css3-alt fa-2x"
+                        style="color:rgb(23, 99, 197)"></i>
+                </li>
+                <li class="list-group-item">JavaScript &emsp; &emsp;<i class="fab fa-js-square fa-2x"
+                        style="color:rgb(213, 226, 33)"></i>
+                </li>
+                <li class="list-group-item">Leaflet <img src='./Imagenes/leaflet.png' alt="leaflet logo" id='logo'>
+                </li>
+            </ul>
+            <br>
+            <br>
+            Este visor se encuentra disponible en este <a
+                href='https://bsoviedo.github.io/Geovisor_1_VS/GEOVISOR/Index.html' alt='enlace a geovisor'
+                target='blank'> enlace</a>, y también se puede obtener una vista previa en esta pagina. <br>
             </p>
 
 
-            <img class='muestra' src='../First/Imagenes/Geovisor v1.PNG' width=700
+            <img class='muestra' src='../First/Imagenes/Geovisor v1.PNG'
                 alt='Vista previa del dashboard ancho andenes en Bogotá' />
+            <div class="card text-center">
+                <div class="card-body">
+                    <div class="  col-sm-12 col-md-1" id='proyectos'>
+                        <a href="https://bsoviedo.github.io/Geovisor_1_VS/GEOVISOR/Index.html" class="btn btn-secondary"
+                            alt="Enlace al visor" target='blank'>Ir al visor</a>
+                    </div>
+                </div>
+            </div>
 
             <!--  <iframe src='https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html' width= 1300px
     height= 700px
@@ -104,7 +233,7 @@ página web-->
         </section>
 
         <h3>
-            3- Dashboard ancho de andenes Bogotá
+            4- Dashboard ancho de andenes Bogotá
         </h3>
         <p>
             Este producto realizado a lo largo del año 2020, junto con un colega geógrafo, producto que muestra el
@@ -122,33 +251,65 @@ página web-->
             COVID 19, es necesario
             considerar si existe la capacidad en la ciudad para garantizar un distanciamiento efectivo. <br>
             <br>
-
-            Este tablero se puede consultar en el siguiente <a href=http://arcg.is/q410b target='blank'> <em>enlace</em>
-            </a>
             <br>
-            Adicionalmente, acá puedes observar una vista previa: <br>
+        <ul class='list-group  col-sm-12 col-md-6' id='tecno'>Técnologías usadas:
+            <li class="list-group-item">Arcgis Pro <Prog></Prog> &emsp; &emsp; <img src='./Imagenes/Arcgispro.png'
+                    alt="Arcgis pro logo" id='Esrilogo'>
+            </li>
+            <li class="list-group-item">Arcgis Dashboards &emsp; &emsp; <img src='./Imagenes/ArcgisDashboards.png'
+                    alt="Arcgis Dashboards logo logo" id='Esrilogo'>
+            </li>
+        </ul>
+        <br>
+        <br>
+
+        Este tablero se puede consultar en el siguiente <a href=http://arcg.is/q410b target='blank'> <em>enlace</em>
+        </a>
+        <br>
+        Adicionalmente, acá puedes observar una vista previa: <br>
         </p>
         <!-- <iframe src='https://unalsig.maps.arcgis.com/apps/opsdashboard/index.html#/e8262228acbb4511ad759b52de3fcc01' width= 1300px
 height= 700px
 title='Dashboard diseñado en Arcgis Dashboards'> </iframe> -->
 
 
-        <img class='muestra ' src=https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/PREVIEW.PNG width=700
+        <img class='muestra ' src=https://raw.githubusercontent.com/bsoviedoy/Portafolio/main/PREVIEW.PNG
             alt='Vista previa del dashboard ancho andenes en Bogotá' />
-
+        <div class="card text-center">
+            <div class="card-body">
+                <div class="  col-md-1" id='proyectos'>
+                    <a href="http://arcg.is/q410b" class="btn btn-secondary" alt='Enlace a perfil de LinkedIn'
+                        target='blank'>Ir
+                        al visor</a>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
 
     <footer>
-        Gracias por visitar, puedes contactarme a mi <a href=mailto:bsoviedoy@gmail.com> correo</a> <br>
         <br>
-        y también puedes encontrarme en Linkedin <br>
-        <a href='https://www.linkedin.com/in/brayan-oviedo-yate-478072136/' target=blank> <img
-                src='https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png' width='40'
-                alt='Enlace de perfil de linkedin' /> </a>
+
+
+        <div class="card text-center">
+            <div class="card-body">
+
+                <p class="card-text">Gracias por visitar, puedes contactarme a mi <a href=mailto:bsoviedoy@gmail.com>
+                        correo</a>
+                    y también puedes encontrarme en Linkedin</p>
+                <a href="https://www.linkedin.com/in/brayan-oviedo-yate-478072136/" class="btn btn-secondary"
+                    alt='Enlace a perfil de LinkedIn' target='blank'>Ir a
+                    Linkedin</a>
+            </div>
+        </div>
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

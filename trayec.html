@@ -5,111 +5,160 @@
     <meta charset="UTF-8">
     <title> Trayectoria </title>
     <!-- Esta etiqueta link permite llamar los archivos css para el estilo-->
-    <link rel='stylesheet' href='CSS/trayect.css'>
+    <link rel='stylesheet' href='CSS/main.css'>
+
 
     <!-- Esta etiqueta link permite poner un icono en la parte del título de la 
 página web-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel='icon' type='image/png'
         href=' https://www.flaticon.es/svg/vstatic/svg/921/921490.svg?token=exp=1614009220~hmac=7d4c04dd356ad9e57bcaf7ee5d7a1486'>
 </head>
 
 <body>
+
     <header>
-        <h1> Titulos, cursos complentarios y formaciones acádemicas </h1>
-        <nav>
-            <a href='https://bsoviedo.github.io/some_works/' class='enlace'>Bienvenido/a </a>
-            <a href='Proyectos.html' class='enlace'>Proyectos </a>
-            <a href='trayec.html' class='enlace'>Trayectoría</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" alt='Link de estilo'>Formación acádemica</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"
+                                alt='Enlace a página de inicio'>Bienvenido/a</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Proyectos.html" alt='Enlace a proyectos'>Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trayec.html" alt='Enlace a trayectoria'>Trayectoría</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <div class='container'>
         <div>
+            <br>
             <h2>Títulos </h2>
-            <ul>
+            <br>
+            <ul class='list-group'>
 
-                <li> Geografo, Universidad Nacional de Colombia <br>
+                <li class="list-group-item"> Geografo, Universidad Nacional de Colombia <br>
                     <strong>Fecha de graduación=</strong> 2020
                 </li>
 
-                <li>Técnico en Sistemas, Servicio Nacional de Aprendizaje (SENA) <br>
+                <li class="list-group-item">Técnico en Sistemas, Servicio Nacional de Aprendizaje (SENA) <br>
                     <strong>Fecha de graduación=</strong> 2014
                 </li>
 
             </ul>
         </div>
         <div>
-            <details>
-                <summary>
-                    <h2>Formación Complementaria</h2>
-                </summary>
-                <ul>
-                    <li>Programa Especializado Python For Everybody <br>
-                        Dictado por Universidad de Michigan y Coursera <br>
-                        Fecha de terminación= 2020
-                    </li>
-                    <li>Programa Especializado Web Design For Everybody <br>
-                        Dictado por Universidad de Michigan y Coursera <br>
-                        Fecha de terminación= En curso
-                    </li>
-                </ul>
-            </details>
+
+            <br>
+
+            <h2>Formación Complementaria</h2>
+
+            <br>
+            <ul class='list-group'>
+                <li class="list-group-item">Programa Especializado Python For Everybody <br>
+                    Dictado por Universidad de Michigan y Coursera <br>
+                    Fecha de terminación= 2020
+                </li>
+                <li class="list-group-item">Programa Especializado Web Design For Everybody <br>
+                    Dictado por Universidad de Michigan y Coursera <br>
+                    Fecha de terminación= En curso
+                </li>
+            </ul>
+
         </div>
 
         <div>
-            <details>
-                <summary>
-                    <h2> Congresos y conferencias </h2>
-                </summary>
+            <br>
 
-                1-Reconfiguración de los
-                espacios religiosos a través del turismo y el
-                consumo en Bogotá: el caso de Monserrate <br>
+            <h2> Congresos y conferencias </h2>
+            <br>
+            <ol class='list-group'>
+                <li class="list-group-item">1-Reconfiguración de los
+                    espacios religiosos a través del turismo y el
+                    consumo en Bogotá: el caso de Monserrate <br>
 
-                XVII Encuentro de Geógrafos
-                de América Latina <br>
-                <strong> Lugar= </strong> Quito, Ecuador <br>
-                <strong>Fecha= </strong>Abril, 2019.<br>
-                <br>
-                <br>
-                2-Ponencia: Un estudio geográfico
-                del turismo en Colombia: Perspectivas
-                futuras en un escenario de postconflicto <br>
-                IX Encuentro Latinoamericano
-                de Estudiantes de Geografía <br>
-                <strong> Lugar= </strong> Pasto, Nariño <br>
-                <strong>Fecha= </strong>Septiembre, 2018.<br>
-                <br>
-                3-
-                Ponencia: Breve geohistoria de los
-                espacios del miedo en Bogotá: Del
-                cartucho al Bronx <br> Segundo Congreso Internacional de Geografía Urbana <br>
-                <strong> Lugar= </strong> Luján, Provincia de Buenos Aíres, Argentina <br>
-                <strong>Fecha= </strong>Septiembre, 2017.<br>
-            </details>
+                    XVII Encuentro de Geógrafos
+                    de América Latina <br>
+                    <strong> Lugar= </strong> Quito, Ecuador <br>
+                    <strong>Fecha= </strong>Abril, 2019.<br>
+                    <br>
+                </li>
+                <li class="list-group-item">2-Ponencia: Un estudio geográfico
+                    del turismo en Colombia: Perspectivas
+                    futuras en un escenario de postconflicto <br>
+                    IX Encuentro Latinoamericano
+                    de Estudiantes de Geografía <br>
+                    <strong> Lugar= </strong> Pasto, Nariño <br>
+                    <strong>Fecha= </strong>Septiembre, 2018.<br>
+                    <br>
+                </li>
+                <li class="list-group-item"> 3-
+                    Ponencia: Breve geohistoria de los
+                    espacios del miedo en Bogotá: Del
+                    cartucho al Bronx <br> Segundo Congreso Internacional de Geografía Urbana <br>
+                    <strong> Lugar= </strong> Luján, Provincia de Buenos Aíres, Argentina <br>
+                    <strong>Fecha= </strong>Septiembre, 2017.<br>
+                </li>
+            </ol>
+
         </div>
         <div>
-            <details>
-                <summary>
-                    <h2> Publicaciones</h2>
-                </summary>
-                1- Entre el Cartucho y el Bronx en Bogotá: ¿territorios del miedo o expresiones de injusticia <br>
-                socioespacial?
-                <strong>Revista= </strong> Cuadernos de geografía, revista colombiana de Geografía <br>
+            <br>
 
-                Puedes acceder al articulo haciendo clic en este <a
-                    href=https://revistas.unal.edu.co/index.php/rcg/article/view/73531 target='blank'> enlace</a>
-            </details>
+            <h2> Publicaciones</h2>
+
+            <br>
+            <ul class='list-group'>
+                <li class="list-group-item">
+                    1- Entre el Cartucho y el Bronx en Bogotá: ¿territorios del miedo o expresiones de injusticia
+                    <br>
+                    socioespacial?
+                    <strong>Revista= </strong> Cuadernos de geografía, revista colombiana de Geografía <br>
+
+                    Puedes acceder al articulo haciendo clic en este <a
+                        href=https://revistas.unal.edu.co/index.php/rcg/article/view/73531 target='blank'>
+                        enlace</a>
+                </li>
+            </ul>
+
 
         </div>
     </div>
 
     <footer>
-        <p> Gracias por visitar, puedes contactarme a mi <a href=mailto:bsoviedoy@gmail.com> correo</a></p>
-        <p> y también puedes encontrarme en Linkedin</p>
-        <a href='https://www.linkedin.com/in/brayan-oviedo-yate-478072136/' target=blank> <img
-                src='https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png' width='40'
-                alt='Enlace de perfil de linkedin' /> </a>
+        <br>
+
+
+        <div class="card text-center">
+            <div class="card-body">
+
+                <p class="card-text">Gracias por visitar, puedes contactarme a mi <a href=mailto:bsoviedoy@gmail.com>
+                        correo</a>
+                    y también puedes encontrarme en Linkedin</p>
+                <a href="https://www.linkedin.com/in/brayan-oviedo-yate-478072136/" class="btn btn-secondary"
+                    alt='Enlace a perfil de LinkedIn' target='blank'>Ir a
+                    Linkedin</a>
+            </div>
+        </div>
+
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
 
 </body>
 
