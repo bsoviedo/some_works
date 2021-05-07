@@ -3,42 +3,68 @@ html{
     padding: 10px;
 }
 body { 
-	font: 75% georgia, sans-serif;
+	
 	line-height: 1.88889;
 	color: #555753; 
 	background: rgb(255, 255, 255) url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 }
-header{
-    color: rgb(126, 42, 42);
+
+h2{
     text-align: center;
-    background:rgba(235, 235, 225, 0.952);
-    margin:0px ;
-    padding: 3px;
-    font-family:Helvetica, sans-serif;
-    font-size: 18px;
-    padding: 10px;
+    color:rgb(126, 42, 42);
+}
+h3{
+    color:rgb(126, 42, 42);
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+
+section{
     text-align: justify;
+    padding-top: 2%;
+}
+img{
+    width:100%;
+    display: block;
+    margin:0 auto;
 }
 
-#nombre{
-    font-weight: bold;
-    font-size: 16px;
-
+#logo{
+    display: inline-block;
+ width:15%   ;
+ margin-top: 0 ;
+ padding-top: 0
 }
 
+#Esrilogo{
+        display: inline-block;
+    width:10%
+}
+#proyectos{
+    display:block;
+    margin-left: 35%;
+    padding-top: 0.5%
+}
+
+#tecno{
+        display:block;
+    margin:0 auto;
+
+}
 
 /* Sección de introducción, tag section en html */
 #intro{
-    font-size:130% ;
-    text-align: justify;
+        text-align: justify;
     width: 80%;
     margin: 0 auto;
+    padding-bottom:5%;
     
 }
 
 #Bienvenida{
+    padding-top:15%;
     color: rgb(126, 42, 42);
     text-align: center;
 }
@@ -69,19 +95,17 @@ nav{
 /*Enlaces de la barra nav*/
 
 nav a:link { 
-	font-weight: bold; 
+
 	text-decoration: none; 
 	color: rgb(180, 168, 224);
 	}
 
 nav a:visited { 
-	font-weight: bold; 
 	text-decoration: none; 
 	color: rgb(103, 103, 136);
 	}
 
 nav a:hover, a:focus, a:active { 
-        text-decoration: underline; 
         color: #922d2d;
         
      }
@@ -89,13 +113,13 @@ nav a:hover, a:focus, a:active {
 /* los demás enlaces */      
 
 a:link { 
-        font-weight: bold; 
+
         text-decoration: none; 
         color: rgb(50, 47, 63);
  }
 
 a:visited { 
-	font-weight: bold; 
+
 	text-decoration: none; 
 	color:  rgb(50, 47, 63);
 	}
@@ -105,29 +129,19 @@ a:hover, a:focus, a:active {
     color: #922d2d;
  }
 
-footer{
-    color: black;
-    margin:80px;
-    padding-top:50 px;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
 
-@media all and (min-width: 500px){ 
-    nav{
-        text-align:center;
-        font-size: 1.1rem;
-        padding-right: 30px;
-        word-spacing: 0.50em;
-        margin:0;
-    } 
-     
+@media all and (min-width: 500px){     
     #intro{
         font-size:130% ;
         text-align: justify;
         width:80%;
         margin: 0 auto;
         
+    }
+
+    #proyectos{
+        display: block;
+        margin:0 auto
     }
 
 
@@ -137,20 +151,18 @@ footer{
 @media all and (min-width: 1200px){  
 
     #intro{
-        font-size:130% ;
+
         text-align: justify;
         width: 50%;
         margin: 0 auto;
         
     }
+    #proyectos{
+        display: block;
+        margin:0 auto
+    }
 
-    nav{
-        text-align:end;
-        font-size: 1.1rem;
-        padding-right: 30px;
-        word-spacing: 0.50em;
-        margin:0;
-    
-    } 
+
+
 
 } 
