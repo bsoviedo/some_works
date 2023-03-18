@@ -1,0 +1,24 @@
+.card-project-container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.first-column-card{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.second-column-card{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.text-card{
+    text-align: left;
+    padding-left: 22%;
+}
